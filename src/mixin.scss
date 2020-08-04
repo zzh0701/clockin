@@ -1,0 +1,5 @@
+//px转成rem
+$max-rem: 16;
+@function px2rem($px) {
+  @return $px / 750 * $max-rem+rem; 
+}
